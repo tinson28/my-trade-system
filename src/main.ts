@@ -2,7 +2,7 @@
  * @Author: tinson.liu
  * @Date: 2020-07-15 12:56:40
  * @LastEditors: tinson.liu
- * @LastEditTime: 2020-07-15 12:56:49
+ * @LastEditTime: 2020-07-15 13:08:08
  * @Description: In User Settings Edit
  * @FilePath: /my-trade-system/src/main.ts
  */ 
@@ -45,5 +45,3 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
-
-
