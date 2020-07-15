@@ -1,0 +1,38 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "jsRules": {
+    "no-unused-expression": true
+  },
+  "rules": {
+    "space-before-function-paren": [true, {"anonymous": "always",  "asyncArrow": "always", "constructor": "never", "named": "never", "method": "never" }],
+    "no-increment-decrement": false,
+    "import-name": false,
+    "import-spacing": true,
+    "jsdoc-format": [true, "check-multiline-start"],
+    "prefer-template": false,
+    "object-shorthand-properties-first": false,
+    "comma-spacing": [1, { "before": false, "after": true }],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ]
+  },
+  "rulesDirectory": [
+  ]
+}
