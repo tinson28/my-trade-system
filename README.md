@@ -1,3 +1,11 @@
+<!--
+ * @Author: tinson.liu
+ * @Date: 2020-06-15 11:30:57
+ * @LastEditors: tinson.liu
+ * @LastEditTime: 2020-07-15 12:49:32
+ * @Description: In User Settings Edit
+ * @FilePath: /my-trade-system/README.md
+--> 
 
 ## Description
 
@@ -71,3 +79,4 @@ npx typeorm-model-generator -h 168.63.141.20 -d mt5to4report_demo -u rootsys -x 
 
 # 生成文档
 apidoc -i src/ apidocs/
+
