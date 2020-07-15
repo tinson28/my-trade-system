@@ -1,3 +1,11 @@
+/*
+ * @Author: tinson.liu
+ * @Date: 2020-07-15 12:56:40
+ * @LastEditors: tinson.liu
+ * @LastEditTime: 2020-07-15 12:56:49
+ * @Description: In User Settings Edit
+ * @FilePath: /my-trade-system/src/main.ts
+ */ 
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app';
 import * as bodyParser from 'body-parser';
@@ -37,3 +45,5 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
+
+
